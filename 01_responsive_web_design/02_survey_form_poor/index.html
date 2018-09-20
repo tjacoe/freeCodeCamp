@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    
+    
+<head>
+    
+    <title>Star Trek Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+</head>
+    
+    
+<body>
+
+    
+    <div id="container">
+    
+        <h1 id="title"><span id="golden">Star Trek</span> Survey Form</h1>
+        <p id="description">Please answer a few questions about your Star Trek preferences.</p>
+        
+        <form id="survey-form">
+            <div class="form-row">
+                <label class="label" id="name-label" for="name">* Name:</label>
+                <input class="input" id="name" type="text" name="name" placeholder="Enter your name" required autofocus>
+            </div>
+            <div class="form-row">
+                <label class="label" id="email-label" for="email">* Email:</label>
+                <input class="input" id="email" type="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-row">
+                <label class="label" id="number-label" for="number">* Age:</label>
+                <input class="input" id="number" type="number" name="number" min="5" max="120" placeholder="Enter your age" required>
+            </div>
+            <div class="form-row">
+                <label class="label" id="dropdown-label" for="dropdown">* What is your favorite Star Trek series?</label>
+                <select class="input" id="dropdown" name="dropdown" required>
+                    <option value="The Original Series">The Original Series</option>
+                    <option value="The Next Generation">The Next Generation</option>
+                    <option value="Deep Space Nine">Deep Space Nine</option>
+                    <option value="Voyager">Voyager, obviously</option>
+                    <option value="Enterprise">Enterprise</option>
+                    <option value="Discovery">Discovery</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label class="label" id="radio-label" for="trekker">Do your consider yourself a Trekker?</label>
+                <div id="radio-buttons">
+                    <input class="input trekker" type="radio" name="trekker" value="yes" checked>Yes
+                    <input class="input trekker" type="radio" name="trekker" value="no">No
+                </div>
+            </div>
+            <div class="form-row">
+                <label class="label" id="checkbox-label" for="captain">Who are your favorite captains?</label>
+                <div id="options">
+                    <input class="input captain" type="checkbox" name="captain" value="Captain Janeway" checked>Captain Janeway<br>
+                    <input class="input captain" type="checkbox" name="captain" value="Captain Janeway">Captain Janeway<br>
+                    <input class="input captain" type="checkbox" name="captain" value="Captain Janeway">Captain Janeway<br>
+                    <input class="input captain" type="checkbox" name="captain" value="Captain Janeway">Captain Janeway<br>
+                    <input class="input captain" type="checkbox" name="captain" value="Captain Janeway">Captain Janeway<br>
+                    <input class="input captain" type="checkbox" name="captain" value="Also Captain Picard" checked>Also Captain Picard
+                </div>
+            </div>
+            <div class="form-row">
+                <label class="label" id="textarea-label" for="comments">Comments?</label>
+                <textarea class="input" id="comments" rows="10" cols="25" wrap="hard"></textarea>
+            </div>
+            <div id="button">
+                <button form="survey-form" type="submit" name="submit" value="Submit">Submit</button>
+            </div>
+        
+        </form>
+        
+    </div>
+
+</body>
+</html>

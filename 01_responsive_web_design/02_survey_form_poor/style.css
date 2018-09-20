@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Federation;
+    src: url("Federation.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+#container {
+    width: 50%;
+    background-color: #fffafa;
+    margin: 5vh auto;
+    padding: 30px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.form-row {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-areas: 
+        "label input";
+    align-items: baseline;
+}
+
+h1 {
+    font-family: "Federation";
+    font-size: 2.7em;
+    margin-bottom: 1em;
+    color: #262626;
+}
+
+#golden {
+    color: #d6a444;
+    text-shadow: 1px 1px rgba(38, 38, 38, 0.5);
+    position: relative;
+    top: -1px;
+}
+
+.label {
+    grid-area: label;
+    text-align: right;
+    padding-right: 1vw;
+}
+
+.input {
+    grid-area: input;
+    padding-left: 1vw;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
