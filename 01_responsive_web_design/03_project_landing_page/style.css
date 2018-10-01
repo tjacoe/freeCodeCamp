@@ -1,0 +1,166 @@
+/*Variables*Declaration*/
+:root {
+    --title-font: "Oswald", sans-serif;
+    --common-font: "Open Sans", sans-serif;
+}
+
+/*General*Setting*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--common-font);
+    letter-spacing: 1.2px;
+    box-sizing: border-box;
+}
+
+#container1 {
+    background-image: url("mars_big.jpg");
+    background-position: 0% 85%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#container2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/*Header*/
+#header {
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+}
+
+#header-img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100px;
+    height: auto;
+    opacity: 0.85;
+}
+
+nav {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 100vw;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: #796c5b;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    font-family: var(--title-font);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: #ca8a53;
+    text-shadow: 1px 1px rgba(24, 36, 106, 0.15);
+    margin: 10rem auto;
+    font-family: var(--title-font);
+}
+
+/*Main*/
+#features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.card {
+    width: 20%;
+    text-align: center;
+}
+
+.info {
+    color: #262626;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+}
+
+i {
+    color: #796c5b;
+    font-size: 50px;
+    margin-bottom: 3vh;
+}
+
+#video-div {
+    text-align: center;
+}
+
+iframe {
+    width: 426px;
+    height: 236px;
+}
+
+#form-div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+input {
+    margin: 0 1.5rem;
+}
+
+button {
+    background-color: #796c5b;
+    border: 4px solid #796c5b;
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px 14px;
+}
+
+@media (max-width: 1000px) {
+    #container2 {
+        height: auto;
+    }
+    #features {
+        display: block;
+        text-align: center;
+    }
+    .card {
+        width: 60%;
+        margin: 0 auto;
+        padding: 2rem;    
+    }
+    iframe {
+        margin: 3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    #header-img {
+        display: none;
+    }
+    nav a {
+        padding: 10px;
+    }
+    iframe {
+        width: 300px;
+        height: 170px;
+    }
+}

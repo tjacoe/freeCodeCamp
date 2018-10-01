@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+    background-color: #ebd9c8;
+    color: #262626;
+    letter-spacing: 1.1px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #262626;
+    padding: 20px 30px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+nav a:hover {
+    color: #007a7a;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+}
+
+#welcome-section {
+  background-image: 
+      linear-gradient(
+          rgba(235, 217, 200, 0.45), 
+          rgba(235, 217, 200, 0.45)
+    ),
+        url(hugo-barbosa-447400-unsplash.jpg);
+    background-size: cover;
+    background-position: center 40%;
+}
+
+#welcome-section p {
+    margin-top: 0;
+    text-align: center;
+}
+
+#welcome-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    color: #007a7a;
+    /*color: #de6600;*/
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="160.77513mm"
+   height="55.772202mm"
+   viewBox="0 0 569.67566 197.61803"
+   id="svg4452"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   inkscape:export-filename="/home/voyager/Desktop/projects/freeCodeCamp/01_responsive_web_design/03_project_landing_page/mars_logo.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100"
+   sodipodi:docname="mars_logo.svg">
+  <defs
+     id="defs4454">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4415">
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5"
+         d="m 703.34018,375.75836 330.78872,0 c 1.7688,0 3.1928,1.42397 3.1928,3.19275 l 0,201.70593 c 0,1.76879 -1.424,3.19275 -3.1928,3.19275 l -330.78872,0 c -1.76879,0 -3.19275,-1.42396 -3.19275,-3.19275 l 0,-201.70593 c 0,-1.76878 1.42396,-3.19275 3.19275,-3.19275 z"
+         id="path4417"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-211.48832"
+     inkscape:cy="-129.09436"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="696"
+     inkscape:window-x="0"
+     inkscape:window-y="46"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="-643.73343,-612.37978"
+       orientation="1,0"
+       id="guide4146" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4457">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-533.73345,321.59181)">
+    <text
+       x="522.45001"
+       y="-129.87552"
+       sodipodi:linespacing="125%"
+       id="text4167"
+       style="font-style:normal;font-weight:normal;font-size:215.96676636px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#796c5b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Oswald;-inkscape-font-specification:'Oswald Bold';letter-spacing:8.09875488px;fill:#796c5b;fill-opacity:1;"
+         y="-129.87552"
+         x="522.45001"
+         id="tspan4169"
+         sodipodi:role="line">MARS!</tspan></text>
+  </g>
+</svg>

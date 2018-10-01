@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #262626;
+    font-family: "Merriweather", serif;
+    font-size: 0.9rem;
+    background-color: #faf7f5;
+}
+
+#container {
+    display: grid;
+    grid-template-areas: 
+        "nav main";
+    grid-template-columns: 25% 75%;
+}
+
+nav {
+    grid-area: nav;
+    border-right: 1px dashed #262626;
+    margin: 1.5rem 0;
+}
+
+nav a {
+    display: block;
+    color: #262626;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.2rem;
+    background-color: #75b4b7;
+    border: 4px solid #75b4b7;
+}
+
+nav a:hover {
+    background-color: #98e6ea;
+    border-color: #98e6ea;
+}
+
+main {
+    grid-area: main;
+    margin: 1.5rem 3rem;
+}
+
+.content {
+    margin: 0 12rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+header {
+    font-family: "Teko", sans-serif;
+    font-size: 3rem;
+}
+
+nav header {
+    text-align: center;
+}
+
+main header {
+    margin-bottom: 1.5rem;
+}
+
+p, li {
+    margin-bottom: 2rem;
+}
+
+.html-code {
+    background-color: #e6e6e6;
+    border-left: 3px solid #75b4b7;
+}
+
+code p {
+    padding: 1rem;
+}
+
+.html-tag {
+    color: #75b4b7;
+}
+
+/*MEDIA*QUERIES*/
+@media (max-width: 700px) {
+    #container {
+        grid-template-areas: 
+        "nav"
+        "main";
+        grid-template-columns: 100%;
+    }
+    
+    .content {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 550px) {
+    code p {
+        font-size: 0.6rem;
+    }
+}
